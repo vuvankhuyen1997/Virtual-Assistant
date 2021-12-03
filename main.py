@@ -33,6 +33,12 @@ while True:
 	print("You: " + you)
 	if you == "":
 		robot_brain	= " I can't hear you, try again"
+	elif "name" in you:
+		robot_brain = "my name is Advices"
+	elif "how are you" in you:
+		robot_brain = "I'm fine thanks"
+	elif "old" in you:
+		robot_brain = "I'm 2 months"
 	elif "hello" in you:
 		robot_brain = "hello my boss"
 	elif "weather" in you:
