@@ -61,7 +61,7 @@ while True:
 		robot_mouth.runAndWait()
 		break
 	else:
-		robot_brain	= "I'm fine thank you and you"
+		robot_brain	= "I can not hear you, can you ask again ?"
 	print("Robot: " + robot_brain)
 	robot_mouth.say(robot_brain)
 	robot_mouth.runAndWait()
